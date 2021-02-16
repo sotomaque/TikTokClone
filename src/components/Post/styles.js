@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   },
   verticalContainer: {
     alignSelf: 'flex-end',
-    height: 250,
+    height: 300,
     justifyContent: 'space-between',
     marginRight: 5,
   },
@@ -65,7 +65,6 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     borderWidth: 2,
     borderColor: '#fff',
-    marginBottom: 5,
   },
   iconContainer: {
     alignItems: 'center',

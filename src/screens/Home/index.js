@@ -4,14 +4,15 @@ import Post from '../../components/Post';
 
 const post = {
   id: 'p1',
+  videoUri: '',
   user: {
     id: 'u1',
     username: 'esotomay',
-    profileImage: 'https://picsum.photos/200/300',
+    profileImageUri: 'https://picsum.photos/200/300',
   },
   description: 'lolz',
-  song: 'paparazzi - eboys',
-  songImage: 'https://picsum.photos/200/300',
+  songName: 'paparazzi - eboys',
+  songImageUri: 'https://picsum.photos/200/300',
   likes: 123,
   comments: 12,
   shares: 44,
