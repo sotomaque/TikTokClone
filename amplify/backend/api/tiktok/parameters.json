@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "tiktok",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtiktok9434cf419434cf41",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
