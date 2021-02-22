@@ -35,7 +35,6 @@ const Post = (props) => {
 
   return (
     <View style={styles.container}>
-      <Text>Hi</Text>
       <TouchableWithoutFeedback onPress={handleVideoPressed}>
         <View>
           <Video
