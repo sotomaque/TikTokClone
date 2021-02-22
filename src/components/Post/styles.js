@@ -2,7 +2,7 @@ import {StyleSheet, Dimensions} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    height: Dimensions.get('window').height - 50,
+    height: Dimensions.get('window').height - 135,
     width: Dimensions.get('window').width,
     backgroundColor: 'black',
   },
@@ -16,17 +16,14 @@ const styles = StyleSheet.create({
   buttonsContainer: {
     height: '100%',
     justifyContent: 'flex-end',
-    marginLeft: 10,
   },
   verticalContainer: {
     alignSelf: 'flex-end',
     height: 300,
     justifyContent: 'space-between',
-    marginRight: 5,
   },
   horizonContainer: {
     padding: 10,
-    marginBottom: 35,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'flex-end',

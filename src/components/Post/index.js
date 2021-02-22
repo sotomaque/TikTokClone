@@ -48,7 +48,6 @@ const Post = (props) => {
             repeat={true}
             paused={isPaused}
           />
-
           <View style={styles.buttonsContainer}>
             {/* Vertical Side Component */}
             <View style={styles.verticalContainer}>
