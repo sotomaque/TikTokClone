@@ -3,7 +3,7 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import Home from '../screens/Home';
+import HomeBottomTabNavigator from './homeBottomTabNavigator';
 
 const Stack = createStackNavigator();
 
@@ -14,7 +14,7 @@ const RootNavigation = () => {
         screenOptions={{
           headerShown: false,
         }}>
-        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Home" component={HomeBottomTabNavigator} />
       </Stack.Navigator>
     </NavigationContainer>
   );
