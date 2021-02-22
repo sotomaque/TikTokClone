@@ -1,10 +1,11 @@
 import React from 'react';
+import {Image} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import Entypo from 'react-native-vector-icons/Entypo';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Feather from 'react-native-vector-icons/Feather';
+import plusIcon from '../assets/images/plus-icon.png';
 
 import Home from '../screens/Home';
 
@@ -41,9 +42,13 @@ const HomeBottomTabNavigator = () => {
         name={'Upload'}
         component={Home}
         options={{
-          tabBarIcon: ({color}) => (
-            <FontAwesome name={'plus-square-o'} color={color} size={24} />
+          tabBarIcon: () => (
+            <Image
+              source={plusIcon}
+              style={{height: 35, resizeMode: 'contain'}}
+            />
           ),
+          tabBarLabel: () => null,
         }}
       />
       <Tab.Screen

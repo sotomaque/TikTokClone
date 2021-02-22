@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
   buttonsContainer: {
     height: '100%',
     justifyContent: 'flex-end',
+    padding: 5,
   },
   verticalContainer: {
     alignSelf: 'flex-end',
