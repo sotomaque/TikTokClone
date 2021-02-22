@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'TikTokClone' do
+target 'TikTok' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'TikTokCloneTests' do
+  target 'TikTokTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'TikTokClone' do
   end
 end
 
-target 'TikTokClone-tvOS' do
-  # Pods for TikTokClone-tvOS
+target 'TikTok-tvOS' do
+  # Pods for TikTok-tvOS
 
-  target 'TikTokClone-tvOSTests' do
+  target 'TikTok-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
