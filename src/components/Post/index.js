@@ -96,14 +96,14 @@ const Post = (props) => {
                   {/* Icon */}
                   <Entypo name={'beamed-note'} size={24} color="white" />
                   {/* Name */}
-                  <Text style={styles.musicName}>{post.songName}</Text>
+                  <Text style={styles.musicName}>{post.song.name}</Text>
                 </View>
               </View>
               {/* Song Image */}
               <Image
                 style={styles.musicImage}
                 source={{
-                  uri: post.songImageUri,
+                  uri: post.song.imageUri,
                 }}
               />
             </View>
