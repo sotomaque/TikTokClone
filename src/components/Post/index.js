@@ -39,8 +39,7 @@ const Post = (props) => {
         <View>
           <Video
             source={{
-              uri:
-                'https://www.youtube.com/watch?v=ctL8D_RIB0Q&list=PLlUyvnzbn0DC8Iz8v5_mYVVLUE-labHus&index=1&ab_channel=AXVIAXVI',
+              uri: post.videoUri,
             }}
             style={styles.video}
             resizeMode={'cover'}
