@@ -18,7 +18,6 @@ const Post = (props) => {
   const [post, setPost] = React.useState(props.post);
   const [isPaused, setIsPaused] = React.useState(false);
   const [isLiked, setIsLiked] = React.useState(false);
-
   const handleVideoPressed = () => {
     setIsPaused((prev) => !prev);
     console.log('pause pressed');
@@ -54,7 +53,7 @@ const Post = (props) => {
               <Image
                 style={styles.profileImage}
                 source={{
-                  uri: post.user.profileImageUri,
+                  uri: post.user.imageUri,
                 }}
               />
               {/* Like */}
