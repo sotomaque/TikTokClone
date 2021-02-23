@@ -8,6 +8,7 @@ import Feather from 'react-native-vector-icons/Feather';
 import plusIcon from '../assets/images/plus-icon.png';
 
 import Home from '../screens/Home';
+import Upload from '../screens/Upload';
 
 const Tab = createBottomTabNavigator();
 
@@ -40,7 +41,7 @@ const HomeBottomTabNavigator = () => {
       />
       <Tab.Screen
         name={'Upload'}
-        component={Home}
+        component={Upload}
         options={{
           tabBarIcon: () => (
             <Image
