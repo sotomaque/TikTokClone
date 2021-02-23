@@ -24,7 +24,7 @@ const Home = () => {
   }, []);
 
   return (
-    <View>
+    <View style={{backgroundColor: 'black'}}>
       <FlatList
         data={posts}
         renderItem={({item}) => <Post post={item} />}

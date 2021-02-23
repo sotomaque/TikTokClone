@@ -51,10 +51,10 @@ const styles = StyleSheet.create({
     marginLeft: 5,
   },
   musicImage: {
-    height: 40,
-    width: 40,
-    borderRadius: 20,
-    borderWidth: 10,
+    height: 50,
+    width: 50,
+    borderRadius: 25,
+    borderWidth: 6,
     borderColor: '#4c4c4c',
   },
   profileImage: {

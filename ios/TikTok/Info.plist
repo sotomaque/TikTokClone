@@ -76,19 +76,19 @@
 
     <!-- Required with iOS 10 and higher -->
     <key>NSCameraUsageDescription</key>
-    <string>Your message to user when the camera is accessed for the first time</string>
+    <string>Please allow camera access to upload new videos</string>
 
     <!-- Required with iOS 11 and higher: include this only if you are planning to use the camera roll -->
     <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>Your message to user when the photo library is accessed for the first time</string>
+    <string>Please allow access to photo libaray to upload previously recorded videos</string>
 
     <!-- Include this only if you are planning to use the camera roll -->
     <key>NSPhotoLibraryUsageDescription</key>
-    <string>Your message to user when the photo library is accessed for the first time</string>
+    <string>Please allow access to photo libaray to upload previously recorded videos</string>
 
     <!-- Include this only if you are planning to use the microphone for video recording -->
     <key>NSMicrophoneUsageDescription</key>
-    <string>Your message to user when the microphone is accessed for the first time</string>
+    <string>Please allow access to your microphone while recording videos to ensure audio is also uploaded</string>
 
 </dict>
 </plist>
