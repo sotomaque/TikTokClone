@@ -2,4 +2,24 @@ type User @model {
   id: ID!
   username: String!
   email: String!
+
+  posts: [Post] @connection(keyName: "byUser", fields: ["id"])
+}
+
+type Post @model @key(name: "byUser", fields: ["userId"]) {
+  id: ID!
+  videoUri: String!
+  description: String!
+
+  userId: ID!
+  user: User @connection(fields: ["userId"])
+
+  songId: ID!
+  song: Song @connection(fields: ["songId"])
+}
+
+type Song @model {
+  id: ID!
+  name: String!
+  imageUri: String
 }
